@@ -9,6 +9,14 @@
   padding-right: 50px;
 }
 
+#list-group-todo li {
+  cursor: grab;
+}
+
+#list-group-todo li:active {
+  cursor: grabbing;
+}
+
 .list-group-item {
   transition: all 0.5s;
 }
